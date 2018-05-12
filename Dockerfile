@@ -9,6 +9,8 @@ RUN \
     npm install -g http-server && \
     # Add additional tools
     apk --no-cache add nano links git wget curl htop && \
+    # Install Express framework and body parser
+    npm install -g --save express body-parser && \
     # Clean cache
     rm -rf /var/cache/apk/*
 
