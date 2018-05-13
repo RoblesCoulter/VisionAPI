@@ -1,4 +1,4 @@
 node_modules
 config/vision-keyfile.json
 Gruntfile.js
-images/example.png
+.DS_Store
